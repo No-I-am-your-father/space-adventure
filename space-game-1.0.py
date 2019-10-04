@@ -1,3 +1,5 @@
+# coding=utf-8
+
 # Space Exploration: A Text-based Adventure Game
 # (Version 1.0)
 
@@ -96,9 +98,9 @@ def main():
     # Game intro
     print('\n'+'* * * * * * * * * * SPACE EXPLORATION * * * * * * * * * *'+'\n')
     print('The year is 3042. You\'ve been banished from your home planet - the planet Barth. '+'\n'+'Now it\'s just you and your astrobiologist pal ... '+'\n'+'(Please enter the name of your pal)')
-    pal_name = input()
+    pal_name = raw_input()
     print('... the magnificent turtle in your starship ...'+'\n'+'(Please enter the name of your starship)')
-    starship_name = input()
+    starship_name = raw_input()
     print('... flying off into space, in search of a new home planet.'+'\n'+'\n'+starship_name+' can fly in four directions: Forwards, backwards, right and left.'+'\n')
 
     # Game loop
