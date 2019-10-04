@@ -119,7 +119,7 @@ def main():
         stuck = True
         while stuck:
             print('')
-            dir = input('Which direction do you want to go: f, b, r or l? ')
+            dir = raw_input('Which direction do you want to go: f, b, r or l? ')
             choice = get_choice(location,dir)
             if choice == -1:
                 print('Please enter f, b, r or l ')
